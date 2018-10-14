@@ -68,6 +68,7 @@ public class JdbcTimeEntryRepository implements TimeEntryRepository {
             id);
 
         return find(id);
+        //Just to commit
     }
 
     @Override

@@ -13,6 +13,7 @@ public class WelcomeController {
         @Value("${welcome_message}") String welcomeMessage
     ) {
         this.welcomeMessage = welcomeMessage;
+        //Just to commit
     }
 
     @GetMapping("/")
